@@ -1,0 +1,26 @@
+name: Сообщить о проблеме
+description: Описать ошибку в Hell Stream
+title: "[Проблема] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что произошло?
+      description: Что ожидалось и что получилось? Не указывайте секреты и персональные данные.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить?
+      description: Последовательность действий, если она известна.
+  - type: input
+    id: environment
+    attributes:
+      label: Где играли?
+      placeholder: Например, Telegram на Android или браузер на компьютере
+  - type: textarea
+    id: additional
+    attributes:
+      label: Дополнительная информация
+      description: Версия игры или скриншот без личных данных, если доступны.
