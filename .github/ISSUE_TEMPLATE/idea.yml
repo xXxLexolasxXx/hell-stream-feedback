@@ -1,0 +1,16 @@
+name: Поделиться идеей
+description: Предложить улучшение Hell Stream
+title: "[Идея] "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Ваша идея
+      description: Что вы предлагаете и чем это поможет игроку?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Дополнительный контекст
+      description: Примеры или изображения без личных данных.
